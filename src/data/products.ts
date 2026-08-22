@@ -1,0 +1,78 @@
+import type { Product } from '../types'
+
+export const products: Product[] = [
+  {
+    id: 'p1',
+    slug: 'rectangular-box',
+    name: 'Rectangular Self-Heating Box',
+    shape: 'rectangular',
+    tagline: 'Built for full meals on the move.',
+    heatingTime: 'Approximately 10 minutes',
+    capacity: 'TBD',
+    dimensions: 'TBD',
+    weight: 'TBD',
+    material: 'TBD',
+    shelfLife: 'TBD',
+    description:
+      'A compartmentalised container designed for complete meals — mains, sides, and sauces heated together with a single pull of the activation string.',
+    features: [
+      'Pull-string activation',
+      'No electricity or open flame',
+      'Compartmentalised interior',
+      'Stable, flat-pack shape for transport',
+    ],
+    gallery: [
+      { label: 'Front', view: '[IMAGE — RECTANGULAR FRONT]' },
+      { label: 'Side', view: '[IMAGE — RECTANGULAR SIDE]' },
+      { label: 'Open container', view: '[IMAGE — RECTANGULAR OPEN]' },
+      { label: 'Heating mechanism', view: '[IMAGE — RECTANGULAR MECHANISM]' },
+      { label: 'Food inside', view: '[IMAGE — RECTANGULAR FOOD]' },
+      { label: 'Packaging', view: '[IMAGE — RECTANGULAR PACKAGING]' },
+    ],
+    howToUse: [
+      'Open the outer packaging and place the container on a flat, stable surface.',
+      'Pull the activation string fully.',
+      'Leave the container undisturbed for approximately 10 minutes.',
+      'Open carefully and enjoy — the container and contents will be warm.',
+    ],
+    applicationIds: ['a1', 'a3', 'a5', 'a7'],
+    image: '[PRODUCT IMAGE — RECTANGULAR]',
+  },
+  {
+    id: 'p2',
+    slug: 'circular-container',
+    name: 'Circular Self-Heating Container',
+    shape: 'circular',
+    tagline: 'Compact, single-serve, ready to go.',
+    heatingTime: 'Approximately 10 minutes',
+    capacity: 'TBD',
+    dimensions: 'TBD',
+    weight: 'TBD',
+    material: 'TBD',
+    shelfLife: 'TBD',
+    description:
+      'A single-serve bowl-style container suited to soups, rice bowls, and one-pot meals. Same pull-string heating core, sized for a lighter footprint.',
+    features: [
+      'Pull-string activation',
+      'No electricity or open flame',
+      'Bowl-style single chamber',
+      'Compact footprint for bags and packs',
+    ],
+    gallery: [
+      { label: 'Front', view: '[IMAGE — CIRCULAR FRONT]' },
+      { label: 'Side', view: '[IMAGE — CIRCULAR SIDE]' },
+      { label: 'Open container', view: '[IMAGE — CIRCULAR OPEN]' },
+      { label: 'Heating mechanism', view: '[IMAGE — CIRCULAR MECHANISM]' },
+      { label: 'Food inside', view: '[IMAGE — CIRCULAR FOOD]' },
+      { label: 'Packaging', view: '[IMAGE — CIRCULAR PACKAGING]' },
+    ],
+    howToUse: [
+      'Open the outer packaging and place the container on a flat, stable surface.',
+      'Pull the activation string fully.',
+      'Leave the container undisturbed for approximately 10 minutes.',
+      'Open carefully and enjoy — the container and contents will be warm.',
+    ],
+    applicationIds: ['a2', 'a4', 'a6', 'a8'],
+    image: '[PRODUCT IMAGE — CIRCULAR]',
+  },
+]
